@@ -1,0 +1,16 @@
+
+        "morse_string = input()\n",
+        "def count_morse_characters(morse_string):\n",
+        "    dots = 0\n",
+        "    dash = 0\n",
+        "    for i in range(len(morse_string)):\n",
+        "      if morse_string[i] == '.':\n",
+        "        dots += 1\n",
+        "      if morse_string[i] == '-':\n",
+        "                 dash += 1\n",
+        "      print(dots)\n",
+        "      print(dash)\n",
+        "    return dots+dash\n",
+        "\n",
+        "print(count_morse_characters(morse_string))"
+      
